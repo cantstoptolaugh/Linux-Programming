@@ -4,9 +4,8 @@
 #define NUM_THREADS 3
 
 void *hello_thread(void *args) {
-    printf("Thread %d: Hello, World\n", args) {
+    printf("Thread %d: Hello, World\n", args);
         return args;
-    }
 }
 
 int main() {
